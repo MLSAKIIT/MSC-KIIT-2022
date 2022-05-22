@@ -30,10 +30,10 @@
         appendDots: i(t),
         arrows: !0,
         asNavFor: null,
-        prevArrow:
-          '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
-        nextArrow:
-          '<button class="slick-next" aria-label="Next" type="button">Next</button>',
+        // prevArrow:
+        //   '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
+        // nextArrow:
+        //   '<button class="slick-next" style="display:none;" aria-label="Next" type="button">Next</button>',
         autoplay: !1,
         autoplaySpeed: 3e3,
         centerMode: !1,
