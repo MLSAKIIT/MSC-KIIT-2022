@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+* {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500 !important;
+}
+
+body {
+    background-image: url('./assets/MSC_BG.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+    /* margin: 0.8rem; */
+    /* font-size: 35px !important; */
+    color: white;
+    /* added to to fix header above the footer on landing pg.*/
+}
+
+h3,
+h4 {
+    font-family: 'DM Sans', sans-serif;
+    color: aqua;
+    text-align: center;
+}
+
+.head-div {
+    text-align: center;
+    padding: 20%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.head-div h2 {
+    color: rgb(202, 28, 193);
+    text-shadow: 2px 2px rgb(49, 51, 209);
+}
+
+.logo-img {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    padding-bottom: 5%;
+    margin-right: auto;
+    /* text-indent: -9999px; */
+}
+
+.alink {
+    text-align: center;
+    margin-top: 7px;
+    padding: 20px 0;
+    max-width: 590px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: blue; */
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, rgb(34, 62, 185), rgb(31, 156, 187));
+}
+
+.alink:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+    text-decoration: none;
+}
+
+.glink {
+    text-align: center;
+    margin-top: 7px;
+    padding: 20px 0;
+    max-width: 590px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: blue; */
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, rgb(172, 34, 185), rgb(31, 187, 127));
+}
+
+.glink:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+    text-decoration: none;
+}
+
+.rlink {
+    text-align: center;
+    font-size: larger;
+    margin-top: 7px;
+    padding: 20px 0;
+    max-width: 590px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, rgb(14, 28, 230), rgb(228, 6, 6));
+}
+
+.rlink:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+    text-decoration: none;
+}
+
+.socials {
+    text-align: center;
+    padding: 20%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    text-decoration: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    height: 55px;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ac0595;
+    color: white;
+}
+
+.fa-envelope {
+    background: #bb0000;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    * {
+        padding: 1%;
+    }
+    h1 {
+        font-size: 32px!important;
+    }
+    h2 {
+        font-size: 28px!important;
+    }
+    h3,
+    h4 {
+        font-size: 20px!important;
+    }
+    .logo-img {
+        width: 50%;
+        height: 50%;
+        display: block;
+        margin-left: auto;
+        padding-bottom: 5%;
+        margin-right: auto;
+    }
+    .head-div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
